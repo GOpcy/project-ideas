@@ -1,6 +1,21 @@
 # Ideas for projects
+- [[#1. Advanced Golang Project Ideas|1. Advanced Golang Project Ideas]]
+  - [[#1. Advanced Golang Project Ideas#Concurrency & Channels|Concurrency & Channels]]
+  - [[#1. Advanced Golang Project Ideas#System Tools|System Tools]]
+  - [[#1. Advanced Golang Project Ideas#Networking & WebSockets|Networking & WebSockets]]
+  - [[#1. Advanced Golang Project Ideas#Security & Cryptography|Security & Cryptography]]
+  - [[#1. Advanced Golang Project Ideas#Compilers & Low-Level Programming|Compilers & Low-Level Programming]]
+  - [[#1. Advanced Golang Project Ideas#Game Development|Game Development]]
+  - [[#1. Advanced Golang Project Ideas#Which One Should You Start?|Which One Should You Start?]]
 
-## Advanced Golang Project Ideas
+- [[#2. Other Project Ideas|2. Other Project Ideas]]
+  - [[#2. Other Project Ideas#Visualization & Interactive Tools|Visualization & Interactive Tools]]
+  - [[#2. Other Project Ideas#Desktop Applications|Desktop Applications]]
+  - [[#2. Other Project Ideas#Game Development|Game Development]]
+  - [[#2. Other Project Ideas#Low-Level & Systems Programming|Low-Level & Systems Programming]]
+  - [[#2. Other Project Ideas#Which One Should You Start?|Which One Should You Start?]]
+
+## 1. Advanced Golang Project Ideas
 
 ### **Concurrency & Channels**
 #### 1. Parallel Web Scraper
@@ -114,4 +129,83 @@ If you want to **learn advanced Go concepts (interfaces, AST, reflection)**:
 If you want to **build something useful**:
 - **Password Manager**  
 - **System Monitor**  
-- **P2P File Sharing**  
+- **P2P File Sharing**
+
+
+
+## 2. Other Project Ideas
+
+### **Visualization & Interactive Tools**
+#### 1. Algorithm Visualizer
+- Create an interactive tool to visualize algorithms like sorting, pathfinding (A*, Dijkstra), and recursion.
+- Use **HTML/CSS + JavaScript** for a web-based visualizer.
+
+#### 2. Heardle Clone (with Spotify API)
+- Create a music guessing game similar to Heardle.
+- Use **Spotify’s Web API** to fetch song previews.
+- Optionally: Allow users to log in with **OAuth** and track scores.
+
+---
+
+### **Desktop Applications**
+#### 3. Music Player Web/Desktop
+- A lightweight music player supporting playlists, audio visualization, and media controls.
+- Use **Electron** or **Any other language for desktop** for a cross-platform UI.
+- Implement features like **custom equalizer, streaming support, and lyrics integration**.
+
+#### 4. Pomodoro Timer Desktop App
+- A productivity timer app with customizable sessions and notifications.
+- Use **Electron (JavaScript)** for a desktop version.
+- Add **to-do lists, statistics, and break reminders**.
+
+#### 5. Text Editor
+- Build a simple text editor with **syntax highlighting, search, and markdown preview**.
+- Use **Golang, C, Zig, any other language**.
+- Implement plugins, autosave, and optionally cloud sync.
+
+---
+
+### **Game Development**
+#### 6. 2D Space Invaders Game
+- A classic arcade game with a retro feel.
+- Use **Unity (C#), Godot (GDScript), or Pygame (Python)**.
+- For more challanging, try not using an engine in **Golang, C, Zig, any other language**
+- Add levels, power-ups, and high-score tracking.
+
+#### 7. CLI Tetris
+- A command-line version of Tetris.
+- Implement in **Golang, C, Zig, any other language**.
+- Use **ncurses (Linux) or a basic ASCII renderer**.
+
+---
+
+### **Low-Level & Systems Programming**
+#### 8. Mini Operating System (C or Zig)
+- Develop a small OS kernel that boots and runs basic tasks.
+- Learn **bootloaders, memory management, and system calls**.
+- Use **Assembly + C or Zig** with **QEMU for testing**.
+
+#### 9. Small Compiler (C or Zig)
+- Build a simple compiler for a custom language or a subset of an existing one.
+- Learn **parsing, tokenization, and code generation**.
+- Target **LLVM IR, WASM, or assembly**.
+
+---
+
+### **Which One Should You Start?**
+If you want to **learn frontend & interactivity**:
+- **Algorithm Visualizer**  
+- **Heardle Clone**  
+- **Pomodoro Timer**  
+
+If you want to **learn systems programming**:
+- **Mini Operating System**  
+- **Small Compiler**  
+
+If you want to **build a fun game**:
+- **2D Space Invaders**  
+- **CLI Tetris**  
+
+If you want to **develop useful desktop apps**:
+- **Desktop Music Player**  
+- **Text Editor**  
